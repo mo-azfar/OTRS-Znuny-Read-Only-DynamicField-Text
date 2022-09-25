@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="DynamicFields::Driver###ReadOnly" Required="0" Valid="1">
+        <Description Translatable="1">DynamicField backend registration. To validate against another DynamicField</Description>
+        <Navigation>Core::DynamicFields::DriverRegistration</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="DisplayName" Translatable="1">Read Only</Item>
+                <Item Key="Module">Kernel::System::DynamicField::Driver::ReadOnly</Item>
+                <Item Key="ConfigDialog">AdminDynamicFieldText</Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>
