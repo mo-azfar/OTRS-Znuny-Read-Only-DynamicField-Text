@@ -3,3 +3,5 @@
 - For OTRS CE 6.0.x / Znuny LTS / Znuny Features
 
 Turn the dynamic field (text based) into read only field if the value existed.
+
+![](https://github.com/mo-azfar/OTRS-Znuny-Read-Only-DynamicField-Text/blob/main/RO.gif)
